@@ -5,8 +5,8 @@ public class ControlGameScript : MonoBehaviour {
 
 	public GUISkin skin;
 	float timeRemaining = 10;
-	float timeExtension = 3f;
-	float timeDeduction = 2f;
+	float timeExtension = 4f;
+	float timeDeduction = 3f;
 	float totalTimeElapsed = 0;
 	float score=0f;
 	public bool isGameOver = false;
