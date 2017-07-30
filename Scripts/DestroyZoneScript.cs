@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyZoneScript : MonoBehaviour {
 
-	//Destorys objects that character collides with 
+	//Destorys objects that the character collides with 
 	void OnTriggerEnter(Collider other){
 		Destroy (other.gameObject);
 }
