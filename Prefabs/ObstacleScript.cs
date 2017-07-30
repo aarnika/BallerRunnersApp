@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ObstacleScript : MonoBehaviour {
 	//speed of the obstacle object
-	public float objectSpeed = -0.5f;
+	public float objectSpeed = -0.6f;
 
 	void Update () {
 		if (Time.timeScale == 1) {
