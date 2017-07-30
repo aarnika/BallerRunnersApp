@@ -11,16 +11,13 @@ public class PauseScript : MonoBehaviour
   //Makes restart option work
 		Time.timeScale=1;  
 	}
-
 	 void Update()
 	{
 		if(paused)
 			Time.timeScale = 0;  //procedings are halted
 		else
 			Time.timeScale = 1;  //unpauses the game
-
 	}
-
 	 void OnGUI()
 	{
 		GUI.skin=skin;   //use the custom GUISkin
