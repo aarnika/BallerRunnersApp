@@ -18,14 +18,14 @@ public class SpawnScript : MonoBehaviour {
 			{
 				temp = (GameObject)Instantiate(powerup);
 				Vector3 pos = temp.transform.position;
-				temp.transform.position = new Vector3(Random.Range(-3, 4), pos.y, pos.z);
+				temp.transform.position = new Vector3(Random.Range(-4, 6), pos.y, pos.z);
 
 			}
 			else
 			{
 				temp = (GameObject)Instantiate(obstacle);
 				Vector3 pos = temp.transform.position;
-				temp.transform.position = new Vector3(Random.Range(-3, 4), pos.y, pos.z);
+				temp.transform.position = new Vector3(Random.Range(-4, 6), pos.y, pos.z);
 			}
 
 			timeElapsed -= spawnCycle;
