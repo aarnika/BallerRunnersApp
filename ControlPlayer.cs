@@ -5,9 +5,9 @@ public class ControlPlayer : MonoBehaviour {
 	public ControlGameScript control;
 	CharacterController controller;
 	bool isGrounded= false;
-	public float speed = 6.0f;
-	public float jumpSpeed = 8.0f;
-	public float gravity = 20.0f;
+	public float speed = 7.0f;
+	public float jumpSpeed = 7.0f;
+	public float gravity = 22.0f;
 	private Vector3 moveDirection = Vector3.zero;
 	//CountdownTimerScript instance
 	public CountdownTimerScript count;  
@@ -19,7 +19,7 @@ public class ControlPlayer : MonoBehaviour {
 	//sensitivity of accelerometer
 	float sensitivityH = 3; 
 	//smoothness of acceleration control 
-	float smooth = 0.5f; 
+	float smooth = 0.6f; 
 	float GetAxisH = 0;  
 
 	//start 
